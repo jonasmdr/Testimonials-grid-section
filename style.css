@@ -25,5 +25,154 @@
     --main-font: "Barlow Semi Condensed", sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Grey-100);
+    font-family: var(--main-font);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 73px 35px;
+    row-gap: 32px;
+}
+
+section {
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: 500;
+    font-size: 0.8125rem;
+}
+
+.user-status {
+    font-weight: 500;
+    font-size: 0.6875rem;
+}
+
+.topic {
+    font-weight: 600;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    text-align: justify;
+}
+
+.description {
+    font-weight: 500;
+    font-size: clamp(0.8125rem, 2.5vw, 1.1rem);
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/* NAME COLORS */
+
+#daniel-clifford h2, #jonathan-walters h2, #patrick-abrams h2 {
+    color: var(--White);
+}
+
+#jeanette-harmon h2, #kira-whittle h2 {
+    color: var(--Grey-500);
+}
+
+/* STATUS COLORS */
+
+#daniel-clifford .user-status {
+    color: var(--Purple-50);
+}
+
+#jonathan-walters .user-status, #kira-whitlle .user-status {
+    color: var(--Grey-200);
+}
+
+#jeanette-harmons .user-status {
+    color: var(--Grey-400);
+}
+
+#patrick-abrams .user-status {
+    color: var(--White);
+}
+
+/* PHOTO BORDER */
+
+#daniel-clifford img {
+    border: 5px solid var(--Purple-300);
+}
+
+#patrick-abrams img {
+    border: 5px solid var(--Purple-500);
+}
+
+/* TOPIC AND DESCRIPTION COLORS */
+
+#daniel-clifford h3, #jonathan-walters h3 {
+    color: var(--White);
+}
+
+#daniel-clifford p {
+    color: var(--Purple-50);
+}
+
+#patrick-abrams h3 {
+    color: var(--Grey-200);
+}
+
+#patrick-abrams p, #jonathan-walters p {
+    color: var(--Grey-100);
+}
+
+.section-items-f h3 {
+    color: var(--Grey-500);
+}
+
+.section-items-f p {
+    color: var(--Grey-400);
+}
+
+/* CARD COLORS */
+
+#daniel-clifford {
+    background-color: var(--Purple-500);
+}
+
+#jonathan-walters {
+    background-color: var(--Grey-500);
+}
+
+#jeanette-harmon {
+    background-color: var(--White);
+}
+
+#patrick-abrams {
+    background-color: var(--Dark-blue);
+}
+
+#kira-whittle {
+    background-color: var(--White);
+}
+
+
+
+
+
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
