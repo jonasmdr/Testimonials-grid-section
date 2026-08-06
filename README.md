@@ -1,6 +1,6 @@
-# Frontend Mentor - Four card feature section solution
+# Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -57,7 +57,7 @@ Continue practicing to improve my skills even more.
 Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
 
 - What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)? Gemini
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)? fix a centering issue in my grid
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)? just to confirm a few properties
 
 ## Author
 
