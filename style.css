@@ -58,17 +58,18 @@ section {
 }
 
 img {
+    width: 35px;
     border-radius: 50%;
 }
 
 .user-name {
     font-weight: 500;
-    font-size: 0.8125rem;
+    font-size: clamp(0.8125rem, 2.5vw, 1.1rem);
 }
 
 .user-status {
     font-weight: 500;
-    font-size: 0.6875rem;
+    font-size: clamp(0.6875rem, 2.5vw, 0.8rem);
 }
 
 .topic {
@@ -100,11 +101,11 @@ img {
     color: var(--Purple-50);
 }
 
-#jonathan-walters .user-status, #kira-whitlle .user-status {
+#jonathan-walters .user-status, #kira-whittle .user-status {
     color: var(--Grey-200);
 }
 
-#jeanette-harmons .user-status {
+#jeanette-harmon .user-status {
     color: var(--Grey-400);
 }
 
@@ -115,7 +116,7 @@ img {
 /* PHOTO BORDER */
 
 #daniel-clifford img {
-    border: 5px solid var(--Purple-300);
+    border: 2px solid var(--Purple-300);
 }
 
 #patrick-abrams img {
@@ -170,9 +171,63 @@ img {
     background-color: var(--White);
 }
 
-
-
-
-
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 770px) and (max-width: 1440px) {
+    main {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+
+    #daniel-clifford {
+        grid-area: 1 / 1 / 2 / -1;
+    }
+
+    #jonathan-walters {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    #jeanette-harmon {
+        grid-area: 2 / 2 / 3 / -1;
+    }
+
+    #patrick-abrams {
+        grid-area: 3 / 1 / 4 / -1;
+    }
+
+    #kira-whittle {
+        grid-area: 4 / 1 / -1 / -1;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        display: grid;
+        grid-template: auto auto / repeat(4, 1fr);
+        gap: 24px 32px;
+    }
+
+    #daniel-clifford {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    #jonathan-walters {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    #jeanette-harmon {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    #patrick-abrams {
+        grid-area: 2 / 2 / 3 / 4;
+    }
+
+    #kira-whittle {
+        grid-area: 1 / 4 / -1 / -1;
+    }
+}
