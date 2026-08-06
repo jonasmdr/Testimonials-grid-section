@@ -35,8 +35,8 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jonasmdr/Four-card-feature-section#links)
-- Live Site URL: [Add live site URL here](https://jonasmdr.github.io/Four-card-feature-section/)
+- Solution URL: [Add solution URL here](https://github.com/jonasmdr/Testimonials-grid-section)
+- Live Site URL: [Add live site URL here](https://jonasmdr.github.io/Testimonials-grid-section/)
 
 ## My process
 
